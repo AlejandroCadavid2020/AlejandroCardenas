@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONCEPTOS</title>
+    <link rel="stylesheet" href="planning.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+</head>
+<body>
+    <div id="contenedor">
+        <nav>
+            <a href="index.html">Dws</a>
+            <a href="inicio.html">Inicio</a>
+            <a href="planning.html">Conceptos</a>
+            <a href="objetivos1.html">Recursos</a>
+            <a href="objetivos2.html">Autoevaluación</a>
+            <a href="objetivos3.html">Autor</a>
+        </nav>
+
+        <section id="contenido">
+            <article>
+                <h1>CSS.</h1>
+                <p>El lenguaje CSS que estamos usando actualmente es la versión 2.1 que es estándar y la 3.0 que todavía no está terminada de definir pero ya se está usando. La versión 3.0 agrega nuevas propiedades, que se suman a las anteriores. A continuación describo las principales propiedades:</p>
+            </article><br>
+
+            <article>
+                <h1>Display: inline, block, inline-block.</h1>
+                <p>La propiedad display es una de las propiedades CSS más infrautilizadas. Aunque todos los diseñadores conocen esta propiedad y utilizan sus valores inline, block y none, las posibilidades de display son mucho más avanzadas. <br><br>
+
+                De hecho, la propiedad display es una de las más complejas de CSS 2.1, ya que establece eltipo de la caja que genera cada elemento. La propiedad display es tan compleja que casiningún navegador es capaz de mostrar correctamente todos sus valores. <br><br>
+
+                El valor más sencillo de display es none que hace que el elemento no genere ninguna caja. El resultado es que el elemento desaparece por completo de la página y no ocupa sitio, por lo que los elementos adyacentes ocupan su lugar. Si se utiliza la propiedad display: none sobre un elemento, todos sus descendientes también desaparecen por completo de la página. <br><br>
+
+                Si se quiere hacer un elemento invisible, es decir, que no se vea pero que siga ocupando el mismo sitio, se debe utilizar la propiedad visibility. La propiedad display: none se utiliza habitualmente en aplicaciones web dinámicas creadas con JavaScript y que muestran/ocultan contenidos cuando el usuario realiza alguna acción como pulsar un botón o un enlace. <br>
+            </p>
+            </article><br>
+
+            <article>
+                <h1>Font-family.</h1>
+                <p>Define la familia tipográfica. Es conveniente poner una lista de dos o tres tipografías separadas por coma, porque si el usuario no tiene instalada la tipografía que nosostros elegimos, el navegador opta por mostrar la siguiente que debería ser una similar, si tampoco la tiene instalada, mostrará la tipografía por defecto. <br><br>
+
+                Tenemos 3 opciones para definir la elección de la familia tipográfica:1) usar una de lasfuentes más comunes (web safe fonts) que muy probablemente tenga instalada el usuario(Arial, Verdana, Trebuchet, Georgia, san serif, Times), 2) subir nuestra propia fuente conuna propiedad nueva que se llama @font-face, o 3) usar una fuente de Google Font, que eneste momento es lo más recomendable. El sitio es: http://www.google.com/fonts/.</p>
+            </article><br>
+
+            <article>
+                <h1>Font-size.</h1>
+                <p>Define el tamaño de la fuente y el valor se puede escribir en pixels o en ems. En este momento se recomienda usar ems. Los dos son valores relativos, el pixel es un valor relativo a la resolución de la pantalla, pero el em es relativo al tamaño de la fuente definida por el usuario. Si el usuario no cambió la configuración, el valor por defecto de los textos en todos los navegadores es de 16px. Entonces 1em = 16px.</p>
+            </article><br>
+
+            <article>
+                <h1>Color.</h1>
+                <p>Define el color de la tipografía. Los colores se pueden escribir de 3 formas distinas: con sistema hexadecimal, por ejemplo: #FF0000 (es rojo). Con los nombres de los colores (más limitado) por ejemplo: black, red, green. O usando RGB, esta paleta permite agregar el canal alfa para hacer transparencias.</p>
+            </article><br>
+
+            <article>
+                <h1>Width.</h1>
+                <p>Define el ancho de un elemento, el valor se puede escribir en pixels, ems o porcentaje.</p>
+            </article><br>
+
+            <article>
+                <h1>Max-width o min-width.</h1>
+                <p>Definen el ancho máximo o mínimo de un elemento. Muy importante en sitios adaptables</p>
+            </article><br>
+
+            <article>
+                <h1>Height.</h1>
+                <p>Define el alto de un elemento, el valor se puede escribir en pixels, ems o porcentaje.</p>
+            </article><br>
+
+            <article>
+                <h1>Max-height o min-height.</h1>
+                <p>Definen el alto máximo o mínimo de un elemento. Muy importante en sitios adaptables</p>
+            </article><br>
+
+            <article>
+                <h1>Padding.</h1>
+                <p>Es la distancia desde el borde de un elemento hasta su contenido.</p>
+            </article><br>
+
+            <article>
+                <h1>Margin.</h1>
+                <p>Es la distancia entre un elemento y otro (desde el borde de un elemento hacia afuera)</p>
+            </article><br>
+
+            <article>
+                <h1>Border.</h1>
+                <p>Define el borde de un elemento, su color, su estilo y grosor.</p>
+            </article><br>
+
+            <article>
+                <h1>Background.</h1>
+                <p>Define los fondos de un objeto. El fondo puede ser una imagen o un color. El color puede ser pleno o degradado. La imagen se puede repetir formando una trama (es lo que ocurre por defecto) o se puede especificar que no repita y que se coloque en determinada posición.</p>
+            </article><br>
+        </section>
+
+        <aside>
+            <h2>Propiedades.</h2>
+            <ul>
+                <li><a href="">Display: inline, block, inline-block</a></li>
+                <li><a href="">Font-family</a></li>
+                <li><a href="">Font-size</a></li>
+                <li><a href="">Color</a></li>
+                <li><a href="">Width</a></li>
+                <li><a href="">Max-width o min-width</a></li>
+                <li><a href="">Height</a></li>
+                <li><a href="">Max-height o min-height</a></li>
+                <li><a href="">Padding</a></li>
+                <li><a href="">Margin</a></li>
+                <li><a href="">Border</a></li>
+                <li><a href="">Background</a></li>
+            </ul><br><hr>
+            <div class="video-wrapper">
+                <h1>Video explicativo.</h1>
+                <div class="video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/UIo1p5s1BAY"    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;   picture-in-picture" allowfullscreen></iframe>
+                </div><br><hr><br>
+                <div class="imagen">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/mOQWl150sPM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div><br><hr>
+        </aside>
+
+        <footer>
+            <h3>Jose Alejandro Cardenas Cadavid</h3>
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+</body>
+</html>
